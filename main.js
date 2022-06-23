@@ -6,6 +6,7 @@ function onScroll() {
   showBackToTopButtonOnScroll()
 
   activateMenuAtCurrentSection(home)
+  activateMenuAtCurrentSection(community)
   activateMenuAtCurrentSection(about)
   activateMenuAtCurrentSection(documentation)
 }
@@ -68,10 +69,13 @@ ScrollReveal({
 }).reveal(`
   #home, 
   #home img, 
-  #home .stats, 
+  #home .stats,
+  #community,
+  #community header,
+  #community .card
   #about,
   #about header,
-  #about .card
+  #about .content
   #documentation, 
   #documentation header, 
-  #documentation .content`)
+  #documentation .card`)

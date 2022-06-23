@@ -13,18 +13,22 @@
         />
     </head>
 <body>
+
+  <!--SESSÃO PARTE NAVEGAÇÃO -->
     <nav id="navigation">
     <div class="wrapper">
-            <a  >
+            <a class="logo" href="home">
               <img
               src="./assets//Logosemfundo.png"
               />
             </a>
-<!-- Inicio do menu -->
     <div class="menu">
             <ul>
                 <li>
                   <a onclick="closeMenu()" href="#home">Início</a>
+                </li>
+                <li>
+                  <a onclick="closeMenu()" href="#community">Comunidade</a>
                 </li>
                 <li>
                   <a onclick="closeMenu()" href="#about">Sobre</a>
@@ -33,10 +37,8 @@
                   <a onclick="closeMenu()" href="#documentation">Documentação</a>
                 </li>
             </ul>
-
         </div> 
         </div>
-
         <button
             aria-expanded="false"
             aria-label="Abrir menu"
@@ -97,16 +99,15 @@
         </button> 
     </div>         
     </nav>
-    
 
-      <section id="documentation">
+    <!--SESSÂO PARTE INICIO-->
+      <section id="home">
         <div class="wrapper">
             <div class="col-a">
             <header>
               <h4>BOAS-VINDAS AO DONEACTION 👋</h4>
               <h1>Responsavel pelo intérmedio de doações</h1>
             </header>
-  
                 <div class="content">
                     <p>
                 O jeito mais rapido é seguro de encontrar aquilo que precisa
@@ -114,7 +115,6 @@
                     </p>
                 </div>
             </div>
-  
           <div class="col-b">
             <img
               src="./assets/amizade.png"
@@ -123,14 +123,14 @@
           </div>
         </div>
       </section>
-  
-      <section id="about">
+    
+      <!-- SESSÂO DA PARTE COMUNIDADE-->
+      <section id="community">
         <div class="wrapper">
           <header>
             <h4>comunidade</h4>
             <h2>Conheça um pouco sobre a nossa comunidade</h2>
           </header>
-  
           <div class="content">
             <div class="cards">
               <div class="card">
@@ -142,7 +142,6 @@
                   xmlns="http://www.w3.org/2000/svg"
                 >
                 </svg>
-  
                 <h3>Missão</h3>
                 <p>
                   Em prol de uma comunidade melhor, conectamos pessoas que necessitem 
@@ -151,7 +150,6 @@
                   seriam descartados.
                 </p>
               </div>
-  
               <div class="card">
                 <svg
                   width="24"
@@ -161,7 +159,6 @@
                   xmlns="http://www.w3.org/2000/svg"
                 >
                 </svg>
-  
                 <h3>Visão</h3>
                 <p>
                   Ser referencial em praticidade de doação, sendo reconhecido em 
@@ -169,8 +166,6 @@
                   sociedadde transparente e utilitária.
                 </p>
               </div>
-  
-
               <div class="card">
                 <svg
                   width="24"
@@ -180,13 +175,11 @@
                   xmlns="http://www.w3.org/2000/svg"
                 >
                 </svg>
-  
                 <h3>Valores</h3>
                 <p>
                   Responsabiliddade Social e Trabalho em Equipe.
                 </p>
               </div>
-  
               <div class="card">
                 <svg
                   width="24"
@@ -196,7 +189,6 @@
                   xmlns="http://www.w3.org/2000/svg"
                 >
                 </svg>
-
                 <h3>Segmentos do aplicativo</h3>
                 <p>
                   O aplicativo encaixa-se na segmentação da intermediação, 
@@ -205,7 +197,6 @@
                   portanto, doadores e receptores, conectando-os.
                 </p>
             </div>
-            
             <a class="button" href="#contact">
               <img
               src="./assets//Iconlogo.png"
@@ -213,21 +204,18 @@
               />
               saiba mais 
             </a>
-            
-      
           </div>
         </div>
       </section>
 
-    <!-- documentação-->
-      <section id="documentation">
+    <!-- SESSÃO DA PARTE DE SOBRE -->
+      <section id="about">
         <div class="wrapper">
           <div class="col-a">
             <header>
               <h4>Sobre nós</h4>
               <h2>ENTENDA QUEM SOMOS</h2>
             </header>
-  
             <div class="content">
               <p>
                 A DoneAction é uma empresa de ação humanitária que, por meio
@@ -236,7 +224,6 @@
                 da conexão entre pessoas que possuem carência de itens e 
                 pessoas que estejam dispostas a ajudá-las
               </p>      
-              
             </div>
           </div>
           <div class="col-b">
@@ -248,14 +235,13 @@
         </div>
       </section>
 
-    <!-- Componentes -->
-      <section id="about">
+    <!-- SESSÃO DA PARTE DOCUMENTAÇÃO  -->
+      <section id="documentation">
         <div class="wrapper">
           <header>
-            <h4>comunidade</h4>
-            <h2>Conheça um pouco sobre a nossa comunidade</h2>
+            <h4>DOCUMENTAÇÃO 🧐</h4>
+            <h2>Entenda como o DoneAction foi feito.</h2>
           </header>
-  
           <div class="content">
             <div class="cards">
               <div class="card">
@@ -267,7 +253,6 @@
                   xmlns="http://www.w3.org/2000/svg"
                 >
                 </svg>
-  
                 <h3>Missão</h3>
                 <p>
                   Em prol de uma comunidade melhor, conectamos pessoas que necessitem 
@@ -276,61 +261,23 @@
                   seriam descartados.
                 </p>
               </div>
+          </div>
+        </div>
+      </section>
   
-              <div class="card">
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                </svg>
   
-                <h3>Visão</h3>
-                <p>
-                  Ser referencial em praticidade de doação, sendo reconhecido em 
-                  territorio nacional atraves do seus feitos e consolidado como 
-                  sociedadde transparente e utilitária.
-                </p>
-              </div>
-  
-              <div class="card">
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                </svg>
-  
-                <h3>Valores</h3>
-                <p>
-                  Responsabiliddade Social e Trabalho em Equipe.
-                </p>
-              </div>
-  
-              <div class="card">
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                </svg>
-
-                <h3>Segmentos do aplicativo</h3>
-                <p>
-                  O aplicativo encaixa-se na segmentação da intermediação, 
-                  onde será adquirido por aqueles que desejem realizar 
-                  uma doação e/ou por aqueles que necessitem de algo, 
-                  portanto, doadores e receptores, conectando-os.
-                </p>
-            </div>
-            
-            <a class="button" href="#contact">
+    <!-- SESSÃO DO RODAPE -->
+      <footer>
+        <div class="wrapper">
+          <div class="buttons">
+          <a class="button" href="#contact">
+            <img
+            src="./assets//Iconlogo.png"
+            alt="Logo"
+            />
+            saiba mais 
+          </a>
+          <a class="button" href="#contact">
               <img
               src="./assets//Iconlogo.png"
               alt="Logo"
@@ -338,13 +285,6 @@
               saiba mais 
             </a>
           </div>
-        </div>
-      </section>
-  
-  
-    <!--Rodape da pagina-->
-      <footer>
-        <div class="wrapper">
           <div class="col-a">
             <a class="link" href="#home">
               <p></p>
@@ -369,8 +309,9 @@
           </div>
         </div>
       </footer>
-<!--Botão top da tela -->
-      <a id="backToTopButton" href="#home">
+
+    <!-- SESSÃO DE BOTÃO RETORNO, NO MOBILE -->
+      <a id="backToTopButton" href="#top">
         <svg
           width="40"
           height="40"
