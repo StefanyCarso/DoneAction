@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Done Action</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="./style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+<body>
+
+  <!--SESSÃO PARTE NAVEGAÇÃO -->
+    <nav id="navigation">
+    <div class="wrapper">
+            <a class="logo" href="home">
+              <img
+              src="./assets//Logosemfundoo.png"
+              />
+            </a>
+    <div class="menu">
+            <ul>
+                <li>
+                  <a onclick="closeMenu()" href="./index.html">Início</a>
+                </li>
+                <li>
+                  <a onclick="closeMenu()" href="./index.html">Comunidade</a>
+                </li>
+                <li>
+                  <a onclick="closeMenu()" href="./index.html">Sobre</a>
+                </li>
+                <li>
+                  <a onclick="closeMenu()" href="./index.html">Documentação</a>
+                </li>
+            </ul>
+        </div> 
+        </div>
+        <button
+            aria-expanded="false"
+            aria-label="Abrir menu"
+            onclick="openMenu()"
+            class="open-menu"
+        >
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 20H30"
+                stroke="#00856F"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M10 12H30"
+                stroke="#00856F"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M18 28L30 28"
+                stroke="#00856F"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+        </button>
+        <button
+            aria-expanded="true"
+            aria-label="Fechar menu"
+            onclick="closeMenu()"
+            class="close-menu"
+        >
+            <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    d="M30 10L10 30M10 10L30 30"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                />
+            </svg>
+        </button> 
+    </div>         
+    </nav>
+
+    <section id="documentation">
+      <div class="wrapper">
+        <header>
+          <h4> documentação do projeto</h4>
+          
+        </header>
+        <div class="content">
+          <div class="cards">
+            <div class="card">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+              </svg>
+              <h3></h3>
+              <p>
+               
+              </p>
+            </div>
+        </div>
+      </div>
+    </section>
+  <!-- SESSÃO DO RODAPE -->
+  <footer>
+    <div class="wrapper">
+      <div class="buttons">
+    
+      </div>
+      <div class="col-a">
+        <a class="link" href="#home">
+          <p>
+            <h4>
+            <a href="./projectdocumentation.html"> Documentação do projeto </a><br/><br/>
+            <a href="./abouttheteam.html"> Sobre a equipe </a></br/>
+            <a href="https://github.com/StefanyCarso/TCC_WebDoneAction"> GitHub </a><br/><br/>
+            <a href="./privacypolicy.html"> Politica de privacidade</a><br/><br/>
+            <a href="./termsofuse.html"> Termos de uso</a><br/><br/>
+          </div>
+            </h4>
+          </p>
+        </a>
+        <p>
+          ©2022 DoneAction. <br />
+          Todos os direitos reservados.
+        </p>
+        
+      </div>
+    </div>
+  </footer>
+
+<!-- SESSÃO DE BOTÃO RETORNO, NO MOBILE -->
+  <a id="backToTopButton" href="#top">
+    <svg
+      width="40"
+      height="40"
+      viewBox="0 0 40 40"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="20" cy="20" r="20" fill="#00856F" />
+      <path
+        d="M20 27V13"
+        stroke="white"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M13 20L20 13L27 20"
+        stroke="white"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  </a>
+
+  <!-- ScrollReaveal Lib / parte funcionalidade -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="./main.js"></script>
+</body>
