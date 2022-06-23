@@ -7,6 +7,8 @@
   
   :root {
     --hue: 190;
+    --colortitlle: rgb(55, 194, 55);
+    --colorgreen: rgb(117, 221, 117);
     --primary-color: hsl(var(--hue), 100%, 26%);
     --headline: hsl(210, 11%, 15%);
     --paragraph: hsl(210, 9%, 31%);
@@ -53,7 +55,7 @@
     font-weight: 700;
     line-height: 150%;
     letter-spacing: 0.08rem;
-    color: var(--primary-color);
+    color: var(--colortitlle);
     text-transform: uppercase;
     margin-bottom: 1.6rem;
   }
@@ -100,15 +102,19 @@
   
   /* custom colors */
   /*parte do menuzinho do topo*/
+  #navigation {
+    background-color:hsl(30, 12%, 97%);
+    box-shadow:  8px 8px 10px rgb(207, 114, 207);
+  }
   #documentation .card circle {
     fill: var(--brand-light);
   }
   #navigation .logo path[fill*='#00856F'],
   #backToTopButton circle {
-    fill: var(--primary-color);
-  }
+   fill: var(--primary-color);
+}
   button.open-menu path[stroke*='#00856F'],
-  #contact li path {
+  #contact li path{
     stroke: var(--primary-color);
   }
   
@@ -134,8 +140,9 @@
     align-items: center;
     justify-content: space-between;
   }
+  /*topo da pagina, bagulhete do topo*/
   nav.scroll {
-    background: var(--primary-color);
+    background: rgb(152, 127, 192);
   }
   nav button {
     background: none;
@@ -172,7 +179,7 @@
   body.menu-expanded .menu {
     top: 0;
     left: 0;
-    background: var(--primary-color);
+    background: var(--colorgreen);
     width: 100vw;
     height: 100vh;
     padding-top: var(--nav-height);
@@ -189,7 +196,7 @@
     line-height: 3.1rem;
   }
   .menu ul li a {
-    color: white;
+    color:rgb(255, 255, 255);
     text-decoration: none;
   }
   .menu .button {
@@ -227,11 +234,13 @@
 
 
   /*=== #HOME =================================*/
+  /*PARTE DO BODY DO MEIO*/
   #home {
     padding-block: 0;
     padding-top: calc(4.1rem + var(--nav-height));
   }
   
+  /*PARTE DE CIMA DO TOPO DA PAGINA*/
   #home::before {
     content: '';
     width: 100%;
@@ -283,7 +292,7 @@
     line-height: 130%;
     margin-bottom: 0.4rem;
   }
-  
+
   #home .stat p {
     margin: 0;
     color: var(--primary-color);
@@ -302,17 +311,21 @@
     gap: 3.2rem;
   }
   
+  /*CSS DO BAGULHETE DO MEIO*/
   #about .card {
     padding: 2.4rem;
     text-align: justify;
     background: rgb(169, 152, 207);
     border: 1px solid var(--brand-light);
     border-radius: 0.6rem;
+    box-shadow:  8px 8px 10px plum;
   }
   
   #about .card h3 {
     margin-block: 1.6rem;
   }
+
+  /*===  ===*/
   
   /*=== documentation/ documentação =================================*/
   #documentation {
@@ -329,8 +342,9 @@
     margin-bottom: 6rem;
   }
 
+/*PARTE DO RODOPE, COR E ETEC.*/
 footer {
-    background-color: var(--primary-color);
+    background-color: rgb(152, 127, 192);
     padding-block: 6rem;
     text-align: left;
     color: white;
@@ -357,12 +371,12 @@ footer {
     justify-content: flex-start;
   }
   
-  /* BACK TO TOP */
+  /* BOTAO PRA SUBI PRO TOPO  */
   #backToTopButton {
     position: fixed;
     bottom: 1rem;
     right: 2.5rem;
-  
+
     opacity: 0;
     visibility: hidden;
   
@@ -440,7 +454,7 @@ footer {
       display: flex;
       gap: 3.2rem;
     }
-  
+  /*SISTEMA DE NAVEGAÇÃO*/
     nav#navigation .menu ul li a {
       color: var(--primary-color);
       opacity: 0.7;

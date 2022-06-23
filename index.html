@@ -15,8 +15,10 @@
 <body>
     <nav id="navigation">
     <div class="wrapper">
-            <a class="logo" href="#home">
-     <!-- logo do done action aqui ! -->
+            <a >
+              <img
+              src="./assets//Logosemfundo.png"
+              />
             </a>
 <!-- Inicio do menu -->
     <div class="menu">
@@ -24,9 +26,17 @@
                 <li>
                   <a onclick="closeMenu()" href="#home">Início</a>
                 </li>
-                <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
-                <li><a onclick="closeMenu()" href="#documentation">Documentação</a></li>
+                <li>
+                  <a onclick="closeMenu()" href="#about">Sobre</a>
+                </li>
+                <li>
+                  <a onclick="closeMenu()" href="#documentation">Documentação</a>
+                </li>
             </ul>
+
+        </div> 
+        </div>
+
         <button
             aria-expanded="false"
             aria-label="Abrir menu"
@@ -86,9 +96,9 @@
             </svg>
         </button> 
     </div>         
-    </div>
     </nav>
-    <section id="home">
+    
+    <section id="documentation">
         <div class="wrapper">
             <div class="col-a">
             <header>
@@ -110,31 +120,13 @@
               alt="Logo do aplicativo, escrito DoneAction e uma mão"
             />
           </div>
-          <!--Tabelinha do meio da pagina-->
-            <div class="stats">
-            <div class="stat">
-              <h3>XXXXX</h3>
-              <p>_________</p>
-            </div>
-  
-            <div class="stat">
-              <h3>XXXXX</h3>
-              <p>_________</p>
-            </div>
-  
-            <div class="stat">
-              <h3>XXXXX</h3>
-              <p>_________</p>
-            </div>
-            </div>
-
         </div>
       </section>
   
       <section id="about">
         <div class="wrapper">
           <header>
-            <h4>Sobre</h4>
+            <h4>comunidade</h4>
             <h2>Conheça um pouco sobre a nossa comunidade</h2>
           </header>
   
@@ -148,14 +140,6 @@
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
-                  <path
-                    d="M17.091 8.18182L10.091 15.1818L6.90918 12"
-                    stroke="#00856F"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
                 </svg>
   
                 <h3>Missão</h3>
@@ -175,14 +159,6 @@
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
-                  <path
-                    d="M17.091 8.18182L10.091 15.1818L6.90918 12"
-                    stroke="#00856F"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
                 </svg>
   
                 <h3>Visão</h3>
@@ -201,14 +177,6 @@
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
-                  <path
-                    d="M17.091 8.18182L10.091 15.1818L6.90918 12"
-                    stroke="#00856F"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
                 </svg>
   
                 <h3>Valores</h3>
@@ -225,14 +193,6 @@
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
-                  <path
-                    d="M17.091 8.18182L10.091 15.1818L6.90918 12"
-                    stroke="#00856F"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
                 </svg>
 
                 <h3>Segmentos do aplicativo</h3>
@@ -243,53 +203,165 @@
                   portanto, doadores e receptores, conectando-os.
                 </p>
             </div>
+            
+            <a class="button" href="#contact">
+              <img
+              src="./assets//Iconlogo.png"
+              alt="Logo"
+              />
+              saiba mais 
+            </a>
           </div>
         </div>
       </section>
-  
+
+    <!-- documentação-->
       <section id="documentation">
         <div class="wrapper">
           <div class="col-a">
             <header>
               <h4>Sobre nós</h4>
-              <h2>Entenda quem somos</h2>
+              <h2>ENTENDA QUEM SOMOS</h2>
             </header>
   
             <div class="content">
               <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim. Amet minim mollit
-                non deserunt ullamco est sit aliqua dolor do amet sint. Velit
-                officia consequat duis enim. Amet minim mollit non deserunt
-                ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                duis enim. Amet minim mollit non deserunt ullamco est sit aliqua
-                dolor do amet sint. Velit officia consequat duis enim. Amet minim
-                mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-              </p>
+                A DoneAction é uma empresa de ação humanitária que, por meio
+                do aplicativo de mesmo nome, visa aplacar as dificuldades de 
+                falta de bens dos individuos através do processo de doação e 
+                da conexão entre pessoas que possuem carência de itens e 
+                pessoas que estejam dispostas a ajudá-las
+              </p>      
+              
             </div>
           </div>
-  
           <div class="col-b">
             <img
-              src="./assets/Logo.png"
+              src="./assets/Logosemfundo.png"
               alt="Logo"
             />
           </div>
         </div>
       </section>
+
+    <!-- Componentes -->
+      <section id="about">
+        <div class="wrapper">
+          <header>
+            <h4>comunidade</h4>
+            <h2>Conheça um pouco sobre a nossa comunidade</h2>
+          </header>
+  
+          <div class="content">
+            <div class="cards">
+              <div class="card">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                </svg>
+  
+                <h3>Missão</h3>
+                <p>
+                  Em prol de uma comunidade melhor, conectamos pessoas que necessitem 
+                  de algo, aqueles que possam e desejem doar, facilitando o 
+                  processo de auxiliar o proximo e a reutilização de produtos que 
+                  seriam descartados.
+                </p>
+              </div>
+  
+              <div class="card">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                </svg>
+  
+                <h3>Visão</h3>
+                <p>
+                  Ser referencial em praticidade de doação, sendo reconhecido em 
+                  territorio nacional atraves do seus feitos e consolidado como 
+                  sociedadde transparente e utilitária.
+                </p>
+              </div>
+  
+              <div class="card">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                </svg>
+  
+                <h3>Valores</h3>
+                <p>
+                  Responsabiliddade Social e Trabalho em Equipe.
+                </p>
+              </div>
+  
+              <div class="card">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                </svg>
+
+                <h3>Segmentos do aplicativo</h3>
+                <p>
+                  O aplicativo encaixa-se na segmentação da intermediação, 
+                  onde será adquirido por aqueles que desejem realizar 
+                  uma doação e/ou por aqueles que necessitem de algo, 
+                  portanto, doadores e receptores, conectando-os.
+                </p>
+            </div>
+            
+            <a class="button" href="#contact">
+              <img
+              src="./assets//Iconlogo.png"
+              alt="Logo"
+              />
+              saiba mais 
+            </a>
+          </div>
+        </div>
+      </section>
+  
   
     <!--Rodape da pagina-->
       <footer>
         <div class="wrapper">
           <div class="col-a">
-            <a class="logo" href="#home">
-              
+            <a class="link" href="#home">
+              <p></p>
+                <h4>
+                <a href="./indexx.html"> Documentação do projeto </a>
+                </h4>
+                <a href="./about.html"> Sobre a equipe </a>
+                <a href="./indexx.html"> GitHub</a>
+                </div>
+              </p>
+              <p>
+                <a href="./indexx.html"> Politica de privacidade</a>
+                <a href="./about.html"> Termos </a>
+              </p>
             </a>
   
             <p>
               ©2022 DoneAction. <br />
               Todos os direitos reservados.
             </p>
+            
           </div>
         </div>
       </footer>
