@@ -322,6 +322,38 @@ body.menu-expanded button path {
   margin-inline: auto;
   border-radius: 20rem;
 }
+/*==================== SESSÃO PROJECTDOCUMENTATION / DOCUMENTAÇÃO DO PROJETO  =================================*/
+#projectdocumentation .card {
+  padding: 2.4rem;
+  text-align: justify;
+  background: rgb(169, 152, 207);
+  border: 1px solid var(--brand-light);
+  border-radius: 0.6rem;
+  box-shadow:  8px 8px 10px plum;
+}
+#projectdocumentation .card h2 {
+  margin-block: 1.6rem;
+  text-align: center;
+  color: rgb(210, 240, 210);
+}
+#projectdocumentation .card p {
+  margin-block: 1.6rem;
+  text-align: justify;
+  color: white;
+}
+#projectdocumentation img {
+  width: 60.4rem;
+  display: block;
+  margin-inline: auto;
+  border-radius: 20rem;
+}
+#projectdocumentation .card img{
+  width: 6.4rem;
+  display: block;
+  margin-inline: auto;
+  border-radius: 20rem;
+}
+
 
 
 /* ================== SESSÃO DO FOOTER / RODAPE =================================== */
@@ -582,6 +614,32 @@ footer p {
 #documentation .content p {
   margin-bottom: 0;
 }
+
+  /*======================== SESSÃO PROJECTDOCUMENTATION / DOCUMENTAÇÃO DO PROJETO =================================*/
+  #projectdocumentation {
+    text-align: left;
+    background-color: var(--backgroundwhite);
+  }
+  
+  #projectdocumentation header h2 {
+    margin-bottom: 2.4rem;
+  }
+  
+  #projectdocumentation .content p {
+    margin-top: 2.4rem;
+    margin-bottom: 6rem;
+  }
+  #projectdocumentation .wrapper {
+    grid-template-columns: 48rem 1fr;
+    grid-template-areas: 'B A';
+    gap: 6.7rem;
+  }
+  #projectdocumentation .col-a {
+    align-self: center;
+  }
+  #projectdocumentation .content p {
+    margin-bottom: 0;
+  }
   /*================== SESSÃO FOOTER / RODAPE  =================================*/
   footer {
     padding-block: 8rem;
