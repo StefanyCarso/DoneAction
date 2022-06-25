@@ -640,6 +640,32 @@ footer p {
   #projectdocumentation .content p {
     margin-bottom: 0;
   }
+  
+  /*======================== SESSÃO ABOUTTHETEAM / SOBRE A EQUIPE =================================*/
+  #projectdocumentation {
+    text-align: left;    
+    background-color: var(--backgroundwhite);
+  }
+  
+  #projectdocumentation header h2 {
+    margin-bottom: 2.4rem;
+  }
+  
+  #projectdocumentation .content p {
+    margin-top: 2.4rem;
+    margin-bottom: 6rem;
+  }
+  #projectdocumentation .wrapper {
+    grid-template-columns: 48rem 1fr;
+    grid-template-areas: 'B A';
+    gap: 6.7rem;
+  }
+  #projectdocumentation .col-a {
+    align-self: center;
+  }
+  #projectdocumentation .content p {
+    margin-bottom: 0;
+  }
   /*================== SESSÃO FOOTER / RODAPE  =================================*/
   footer {
     padding-block: 8rem;
