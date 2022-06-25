@@ -120,12 +120,8 @@ button.open-menu path[stroke*='#00856F'],
   stroke: var(--primary-color);
 }
 
-body.menu-expanded #navigation .logo path,
-#navigation.scroll .logo path {
-  fill: rgb(206, 28, 28);
-}
 #navigation.scroll button.open-menu path[stroke*='#00856F'] {
-  stroke: rgb(255, 32, 32);
+  stroke: var(--primary-color);
 }
 
 /*=== SESSÃO DA NAVIGATION / NAVEGAÇÃO =================================*/
@@ -225,9 +221,7 @@ body.menu-expanded button {
   position: relative;
   z-index: 100;
 }
-body.menu-expanded .logo path {
-  fill: rgb(10, 146, 135);
-}
+
 body.menu-expanded button path {
   stroke: var(--brand-dark);
 }
@@ -297,6 +291,7 @@ body.menu-expanded button path {
 #about .content p {
   margin-top: 2.4rem;
   margin-bottom: 6rem;
+  text-align:justify;
 }
 
 /*==================== SESSÃO DOCUMENTATION / DOCUMENTAÇÃO =================================*/
