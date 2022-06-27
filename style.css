@@ -353,8 +353,13 @@ body.menu-expanded button path {
   margin-inline: auto;
   border-radius: 20rem;
 }
-
-
+/*==================== SESSÃO abouttheteam /  =================================*/
+#abouttheteam img {
+  width: 40.4rem;
+  display: block;
+  margin-inline: auto;
+  border-radius: 20rem;
+}
 
 /* ================== SESSÃO DO FOOTER / RODAPE =================================== */
 footer {
@@ -657,7 +662,7 @@ footer p {
   #privacypolicy .col-a {
     align-self: center;
   }
-  privacypolicy .content p {
+  #privacypolicy .content p {
     margin-bottom: 0;
   }
   #privacypolicy header h2 {
@@ -697,15 +702,30 @@ footer p {
   text-align: justify;
 }
   /*======================== SESSÃO abouttheteam/  =================================*/
-  
-  #abouttheteam header h2 {
-    margin-bottom: 2.4rem;
+  #abouttheteam {
+    text-align: left;
+    background-color: var(--backgroundwhite);
   }
   #abouttheteam .content p {
    margin-top: 2.4rem;
   margin-bottom: 6rem;
   align-self: justify;
 }
+  #abouttheteam .wrapper {
+    grid-template-columns: 48rem 1fr;
+    grid-template-areas: 'B A';
+    gap: 6.7rem;
+  }
+  #abouttheteam .col-a {
+    align-self: center;
+  }
+  #abouttheteam .content p {
+    margin-bottom: 0;
+  }
+  #abouttheteam header h2 {
+    margin-bottom: 2.4rem;
+  }
+  
 
   
   /*================== SESSÃO FOOTER / RODAPE  =================================*/
