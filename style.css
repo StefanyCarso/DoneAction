@@ -640,6 +640,73 @@ footer p {
   #projectdocumentation .content p {
     margin-bottom: 0;
   }
+  /*======================== SESSÃO privacypolicy/  =================================*/
+  
+  #privacypolicy {
+    text-align: center;
+    margin-inline: auto;
+    background-color: var(--backgroundwhite);
+  }
+  #privacypolicy .wrapper {
+    gap: 6.7rem;
+  }
+  #privacypolicy .wrapper {
+    gap: 6.7rem;
+    text-align: justify;
+  }
+  #privacypolicy .col-a {
+    align-self: center;
+  }
+  privacypolicy .content p {
+    margin-bottom: 0;
+  }
+  #privacypolicy header h2 {
+    margin-bottom: 2.4rem;
+  }
+  #privacypolicy .content p {
+   margin-top: 2.4rem;
+  margin-bottom: 6rem;
+  text-align: justify;
+}
+  /*======================== SESSÃO termsofuse/  =================================*/
+  
+  #termsofuse {
+    text-align: center;
+    margin-inline: auto;
+    background-color: var(--backgroundwhite);
+  }
+  #termsofuse .wrapper {
+    gap: 6.7rem;
+  }
+  #termsofuse .wrapper {
+    gap: 6.7rem;
+    text-align: justify;
+  }
+  #termsofuse .col-a {
+    align-self: center;
+  }
+  #termsofuse .content p {
+    margin-bottom: 0;
+  }
+  #termsofuse header h2 {
+    margin-bottom: 2.4rem;
+  }
+  #termsofuse .content p {
+   margin-top: 2.4rem;
+  margin-bottom: 6rem;
+  text-align: justify;
+}
+  /*======================== SESSÃO abouttheteam/  =================================*/
+  
+  #abouttheteam header h2 {
+    margin-bottom: 2.4rem;
+  }
+  #abouttheteam .content p {
+   margin-top: 2.4rem;
+  margin-bottom: 6rem;
+  align-self: justify;
+}
+
   
   /*================== SESSÃO FOOTER / RODAPE  =================================*/
   footer {
